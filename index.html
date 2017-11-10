@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman - Kal's game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<!-- header ends -->
+
+<body>
+    <div class="container-fluid">
+        <!-- Page container Start -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row jumbotron">
+                    <div class="col-sm-12">
+                        <h1>HANGMAN GAME</h1>
+                        <h3>Cities around the world</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <h4>About the game</h4>
+                    </div>
+                    <div class="row">
+                        <blockquote>
+                            <p>Hangman is a paper and pencil guessing game for two or more players. One player thinks of a word, phrase or sentence and the other tries to guess it by suggesting letters or numbers, within a certain number of guesses.</p>
+                            <small>from<cite title="Wikipedia"> <a href="https://en.wikipedia.org/wiki/Hangman_(game)">Wikipedia</a>, the free encyclopedia</cite>
+                            </small>
+                            <br>
+                            <p>In this game, you will have to guess the names of cities around the world. Good luck!</p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <h4>How to start the game:</h4>
+                    </div>
+                    <div class="row">
+                        <p class="text-danger">Please press any key to start</p>
+                    </div>
+                    <div class="row">
+                        <h4>Word to Guess:</h4>
+                    </div>
+                    <div class="row">
+                        <p id="wordToGuess">_ _ _ _ _ _ _ _</p>
+                    </div>
+                    <div class="row">
+                        <h4>Guesses Remaining:</h4>
+                    </div>
+                    <div class="row">
+                        <span id="numGuesses"></span>
+                    </div>
+                    <div class="row">
+                        <h4>Letters Guessed:</h4>
+                    </div>
+                    <div class="row">
+                        <span id="wrongGuesses"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page container End -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <p class="footer panel-footer-inverse text-center">Copyright &copy; 2017 by Khalid Madih</p>
+    </nav>
+    <br>
+    <br>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
