@@ -29,7 +29,7 @@ for (var i = 0; i < chosenWord.length; i++) { // loop the chose word
     guessedWord.push("_"); // Populate guessed word by dashes
 }
 
-wordToGuessField.innerHTML = guessedWord.join (" "); // join the dashes by a space
+wordToGuessField.innerHTML = guessedWord.join(" "); // join the dashes by a space
 guessesRemainingField.innerHTML = maxTries;
 
 
